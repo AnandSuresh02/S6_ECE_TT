@@ -16,21 +16,15 @@ function cd(cdate,dest){
     }
   }, 1000);
   }
-  var cdlic = new Date("July 7, 2023 9:30:00").getTime();
-  var lic  = document.querySelector('.emt');
-  cd(cdlic,lic);
-  var cddsp = new Date("July 11, 2023 9:30:00").getTime();
-  var dsp  = document.querySelector('.vlsi');
-  cd(cddsp,dsp);
-  var cdadc = new Date("July 13, 2023 9:30:00").getTime();
-  var adc  = document.querySelector('.itc');
-  cd(cdadc,adc);
-  var cdcs = new Date("July 19, 2023 9:30:00").getTime();
-  var cs  = document.querySelector('.dip');
-  cd(cdcs,cs);
-  var cdmfe = new Date("July 21, 2023 9:30:00").getTime();
-  var mfe  = document.querySelector('.ieft');
-  cd(cdmfe,mfe);
-  var cddm = new Date("July 24, 2023 9:30:00").getTime();
-  var dm  = document.querySelector('.ccw');
-  cd(cddm,dm);
+  var cdmaa = new Date("Jan 5, 2024 9:30:00").getTime();
+  var maa  = document.querySelector('.maa');
+  cd(cdmaa,maa);
+  var cdofc = new Date("Jan 9, 2024 9:30:00").getTime();
+  var ofc  = document.querySelector('.ofc');
+  cd(cdofc,ofc);
+  var cdres = new Date("Jan 12, 2024 9:30:00").getTime();
+  var res  = document.querySelector('.res');
+  cd(cdres,res);
+  var cdise = new Date("Jan 17, 2024 9:30:00").getTime();
+  var ise  = document.querySelector('.ise');
+  cd(cdise,ise);
