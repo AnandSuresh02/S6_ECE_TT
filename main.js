@@ -16,15 +16,15 @@ function cd(cdate,dest){
     }
   }, 1000);
   }
-  var cdmaa = new Date("Jan 5, 2024 9:30:00").getTime();
-  var maa  = document.querySelector('.maa');
-  cd(cdmaa,maa);
-  var cdofc = new Date("Jan 9, 2024 9:30:00").getTime();
-  var ofc  = document.querySelector('.ofc');
-  cd(cdofc,ofc);
-  var cdres = new Date("Jan 12, 2024 9:30:00").getTime();
-  var res  = document.querySelector('.res');
-  cd(cdres,res);
-  var cdise = new Date("Jan 17, 2024 9:30:00").getTime();
-  var ise  = document.querySelector('.ise');
-  cd(cdise,ise);
+  var cdwc = new Date("May 22, 2024 9:30:00").getTime();
+  var wc  = document.querySelector('.wc');
+  cd(cdwc,wc);
+  var cdets = new Date("May 27, 2024 9:30:00").getTime();
+  var ets  = document.querySelector('.ets');
+  cd(cdets,ets);
+  var cdrts = new Date("May 30, 2024 9:30:00").getTime();
+  var rts  = document.querySelector('.rts');
+  cd(cdrts,rts);
+  var cdmt = new Date("Jun 6, 2024 9:30:00").getTime();
+  var mt  = document.querySelector('.mt');
+  cd(cdmt,mt);
